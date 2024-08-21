@@ -7,13 +7,11 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/payrolldb
     username: postgres
-    password: Sachin_08_E_17
+    password: TITAN@0one
   jpa:
     hibernate:
       ddl-auto: create
     show-sql: true
-  config:
-    import: optional:configserver:http://localhost:8888
 
 eureka:
   client:
